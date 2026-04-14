@@ -1,0 +1,17 @@
+# Ravi Kumar Portfolio - robots.txt
+# https://ravi-folio.netlify.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ravi-folio.netlify.app/sitemap.xml
+
+# Crawl-delay (optional, in seconds)
+Crawl-delay: 10
+
+# Disallow admin/cms paths (none for static site, kept for reference)
+Disallow: /cdn-cgi/
+
+# Host directive (not strictly needed but good practice)
+Host: ravi-folio.netlify.app
